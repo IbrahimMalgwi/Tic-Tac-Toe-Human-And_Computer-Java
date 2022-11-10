@@ -10,7 +10,6 @@ import static ticTacToe.Mark.X;
 class PlayerTest {
     private Player player1;
     private Player player2;
-
     private Board board;
 
     @BeforeEach
