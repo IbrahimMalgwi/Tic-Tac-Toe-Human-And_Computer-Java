@@ -65,7 +65,6 @@ class PlayerTest {
         assertThrows(ArrayIndexOutOfBoundsException.class,()-> player1.playGame(-5,board));
     }
 
-
     @Test
     void testThatPlayerCanOnlyPlayInAPositionThatIsEmpty_ExceptionIsThrownIfAPlayersTryToPlayOnAPositionThatIsNotEmpty(){
         Mark [][] boardSurface = board.getBoardSurface();
@@ -172,6 +171,5 @@ class PlayerTest {
         player1.playGame(4, board);
         assertFalse(board.isAWinner());
         assertTrue(board.isATie());
-
     }
 }

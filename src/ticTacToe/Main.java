@@ -34,7 +34,6 @@ public class Main {
                startTicTacToe();
            }
 
-
         switch (option) {
             case 1 -> playWithHuman();
             case 2 -> playWithComputer();
