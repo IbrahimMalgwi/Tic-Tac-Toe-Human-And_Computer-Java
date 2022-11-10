@@ -8,13 +8,10 @@ public class Player {
     private String name;
     private Mark mark;
 
-
-
     public Player(Mark mark, String name){
         this.mark = mark;
         this.name = name;
     }
-
 
     public Mark getMark() {
         return mark;
@@ -46,7 +43,6 @@ public class Player {
         if(boardSurface[col] == E) return  true;
         else throw new TicTacToeException("You Can Only Move To An Empty Position");
     }
-
 
     public String getName() {
         return name;

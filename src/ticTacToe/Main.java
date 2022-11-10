@@ -10,11 +10,11 @@ import static java.lang.System.exit;
 import static ticTacToe.Mark.O;
 import static ticTacToe.Mark.X;
 public class Main {
-    private static Player player1 = new Player(X,"kaybee");
-    private static Player player2 = new Player(O,"kay");
-    private static Board board = new Board();
+    private static final Player player1 = new Player(X,"Judith");
+    private static final Player player2 = new Player(O,"Joanna");
+    private static final Board board = new Board();
     static Random random = new Random();
-    private  static Scanner scanner = new Scanner(System.in);
+    private  static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {startTicTacToe();}
     public static void startTicTacToe(){
         boardSurfaceUpdate();
