@@ -6,7 +6,7 @@ import static ticTacToe.Mark.E;
 
 public class Player {
     private String name;
-    private Mark mark;
+    private final Mark mark;
 
     public Player(Mark mark, String name){
         this.mark = mark;
